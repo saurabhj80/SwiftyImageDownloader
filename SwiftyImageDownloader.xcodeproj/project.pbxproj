@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F315CD81B47C8A0008A0355 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F315CD71B47C8A0008A0355 /* MD5.swift */; };
+		1F315CDA1B47CC44008A0355 /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F315CD91B47CC44008A0355 /* DiskStorage.swift */; };
+		1F315CDC1B47CC68008A0355 /* ImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F315CDB1B47CC68008A0355 /* ImageOperation.swift */; };
+		1F315CDE1B47CC85008A0355 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F315CDD1B47CC85008A0355 /* ImageManager.swift */; };
 		1F7D7CFB1B46F0AA00E4549C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7D7CFA1B46F0AA00E4549C /* AppDelegate.swift */; };
-		1F7D7CFD1B46F0AA00E4549C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7D7CFC1B46F0AA00E4549C /* ViewController.swift */; };
 		1F7D7D001B46F0AA00E4549C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7D7CFE1B46F0AA00E4549C /* Main.storyboard */; };
 		1F7D7D021B46F0AA00E4549C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7D7D011B46F0AA00E4549C /* Images.xcassets */; };
 		1F7D7D051B46F0AA00E4549C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7D7D031B46F0AA00E4549C /* LaunchScreen.xib */; };
 		1F7D7D111B46F0AA00E4549C /* SwiftyImageDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7D7D101B46F0AA00E4549C /* SwiftyImageDownloaderTests.swift */; };
+		1F7D7D1C1B46F10500E4549C /* SJCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7D7D1B1B46F10500E4549C /* SJCollectionViewController.swift */; };
+		1F7D7D1E1B46F2D200E4549C /* SJImageViewCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7D7D1D1B46F2D200E4549C /* SJImageViewCategory.swift */; };
+		1F7D7D211B47188F00E4549C /* imageURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F7D7D201B47188F00E4549C /* imageURLs.plist */; };
+		1FEB12EA1B47E8120034A96E /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB12E91B47E8120034A96E /* MemoryStorage.swift */; };
+		1FEB12ED1B47EA830034A96E /* ImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB12EC1B47EA830034A96E /* ImageStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F315CD71B47C8A0008A0355 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		1F315CD91B47CC44008A0355 /* DiskStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskStorage.swift; sourceTree = "<group>"; };
+		1F315CDB1B47CC68008A0355 /* ImageOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageOperation.swift; sourceTree = "<group>"; };
+		1F315CDD1B47CC85008A0355 /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		1F7D7CF51B46F0AA00E4549C /* SwiftyImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7D7CF91B46F0AA00E4549C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F7D7CFA1B46F0AA00E4549C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F7D7CFC1B46F0AA00E4549C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F7D7CFF1B46F0AA00E4549C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F7D7D011B46F0AA00E4549C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F7D7D041B46F0AA00E4549C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1F7D7D0A1B46F0AA00E4549C /* SwiftyImageDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyImageDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7D7D0F1B46F0AA00E4549C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F7D7D101B46F0AA00E4549C /* SwiftyImageDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyImageDownloaderTests.swift; sourceTree = "<group>"; };
+		1F7D7D1B1B46F10500E4549C /* SJCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJCollectionViewController.swift; sourceTree = "<group>"; };
+		1F7D7D1D1B46F2D200E4549C /* SJImageViewCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJImageViewCategory.swift; sourceTree = "<group>"; };
+		1F7D7D201B47188F00E4549C /* imageURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = imageURLs.plist; sourceTree = "<group>"; };
+		1FEB12E91B47E8120034A96E /* MemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		1FEB12EC1B47EA830034A96E /* ImageStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +72,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F315CDF1B47CCA8008A0355 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1FEB12EF1B47EE130034A96E /* Downloader */,
+				1F315CE01B47CCDC008A0355 /* Storage */,
+			);
+			name = API;
+			path = SwiftyImageDownloader;
+			sourceTree = "<group>";
+		};
+		1F315CE01B47CCDC008A0355 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				1FEB12EC1B47EA830034A96E /* ImageStorage.swift */,
+				1F315CD91B47CC44008A0355 /* DiskStorage.swift */,
+				1FEB12E91B47E8120034A96E /* MemoryStorage.swift */,
+				1F315CD71B47C8A0008A0355 /* MD5.swift */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
 		1F7D7CEC1B46F0AA00E4549C = {
 			isa = PBXGroup;
 			children = (
 				1F7D7CF71B46F0AA00E4549C /* SwiftyImageDownloader */,
+				1F315CDF1B47CCA8008A0355 /* API */,
 				1F7D7D0D1B46F0AA00E4549C /* SwiftyImageDownloaderTests */,
 				1F7D7CF61B46F0AA00E4549C /* Products */,
 			);
@@ -77,11 +115,7 @@
 		1F7D7CF71B46F0AA00E4549C /* SwiftyImageDownloader */ = {
 			isa = PBXGroup;
 			children = (
-				1F7D7CFA1B46F0AA00E4549C /* AppDelegate.swift */,
-				1F7D7CFC1B46F0AA00E4549C /* ViewController.swift */,
-				1F7D7CFE1B46F0AA00E4549C /* Main.storyboard */,
-				1F7D7D011B46F0AA00E4549C /* Images.xcassets */,
-				1F7D7D031B46F0AA00E4549C /* LaunchScreen.xib */,
+				1F7D7D1B1B46F10500E4549C /* SJCollectionViewController.swift */,
 				1F7D7CF81B46F0AA00E4549C /* Supporting Files */,
 			);
 			path = SwiftyImageDownloader;
@@ -90,6 +124,11 @@
 		1F7D7CF81B46F0AA00E4549C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F7D7D201B47188F00E4549C /* imageURLs.plist */,
+				1F7D7CFA1B46F0AA00E4549C /* AppDelegate.swift */,
+				1F7D7CFE1B46F0AA00E4549C /* Main.storyboard */,
+				1F7D7D011B46F0AA00E4549C /* Images.xcassets */,
+				1F7D7D031B46F0AA00E4549C /* LaunchScreen.xib */,
 				1F7D7CF91B46F0AA00E4549C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +149,16 @@
 				1F7D7D0F1B46F0AA00E4549C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FEB12EF1B47EE130034A96E /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				1F7D7D1D1B46F2D200E4549C /* SJImageViewCategory.swift */,
+				1F315CDD1B47CC85008A0355 /* ImageManager.swift */,
+				1F315CDB1B47CC68008A0355 /* ImageOperation.swift */,
+			);
+			name = Downloader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +243,7 @@
 			files = (
 				1F7D7D001B46F0AA00E4549C /* Main.storyboard in Resources */,
 				1F7D7D051B46F0AA00E4549C /* LaunchScreen.xib in Resources */,
+				1F7D7D211B47188F00E4549C /* imageURLs.plist in Resources */,
 				1F7D7D021B46F0AA00E4549C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7D7CFD1B46F0AA00E4549C /* ViewController.swift in Sources */,
+				1F7D7D1C1B46F10500E4549C /* SJCollectionViewController.swift in Sources */,
+				1F315CDC1B47CC68008A0355 /* ImageOperation.swift in Sources */,
+				1F315CDE1B47CC85008A0355 /* ImageManager.swift in Sources */,
+				1F7D7D1E1B46F2D200E4549C /* SJImageViewCategory.swift in Sources */,
+				1FEB12EA1B47E8120034A96E /* MemoryStorage.swift in Sources */,
+				1F315CD81B47C8A0008A0355 /* MD5.swift in Sources */,
+				1F315CDA1B47CC44008A0355 /* DiskStorage.swift in Sources */,
+				1FEB12ED1B47EA830034A96E /* ImageStorage.swift in Sources */,
 				1F7D7CFB1B46F0AA00E4549C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +466,7 @@
 				1F7D7D161B46F0AA00E4549C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F7D7D171B46F0AA00E4549C /* Build configuration list for PBXNativeTarget "SwiftyImageDownloaderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +475,7 @@
 				1F7D7D191B46F0AA00E4549C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
