@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C03B3CD8-593A-44E5-BC3D-803D2150E008</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftyImageDownloader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C8EE64E87C29519A35BA6525C0F4536112D9447</key>
+		<string>https://github.com/saurabhj80/SwiftyImageDownloader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftyImageDownloader.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C8EE64E87C29519A35BA6525C0F4536112D9447</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/saurabhj80/SwiftyImageDownloader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C8EE64E87C29519A35BA6525C0F4536112D9447</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C8EE64E87C29519A35BA6525C0F4536112D9447</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftyImageDownloader</string>
+		</dict>
+	</array>
+</dict>
+</plist>

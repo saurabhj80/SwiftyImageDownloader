@@ -56,23 +56,8 @@ class SJCollectionViewController: UICollectionViewController {
         })
         return cell
     }
-    
-    override func scrollViewWillBeginDragging(scrollView: UIScrollView) {
-        ImageManager.sharedManager.suspendOperations()
-    }
-    
-    override func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-        if !decelerate {
-            ImageManager.sharedManager.resumeOperations()
-        }
-    }
-    
-    override func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
-        ImageManager.sharedManager.resumeOperations()
-    }
 
     @IBAction func clearCache(sender: UIBarButtonItem) {
         ImageStorage.sharedStorage.clearCache()
     }
-    
 }

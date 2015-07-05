@@ -28,7 +28,7 @@ public class ImageManager {
     // Keep track of operations
     var pendingOperations = [NSIndexPath : ImageOperation]()
     
-    internal func downloadImage(url: NSURL, indexPath: NSIndexPath, completionBlock:(image: UIImage?, error: NSError?) -> Void) {
+    internal func downloadImage(url: NSURL, indexPath: NSIndexPath, completionBlock:(image: UIImage?, error: NSError?) -> Void) -> ImageOperation? {
         
         // If image exists in cache
         if let image = ImageStorage.sharedStorage.imageForKey(url.absoluteString!) {
@@ -46,6 +46,7 @@ public class ImageManager {
                 }
                 pendingOperations[indexPath] = operation
                 queue.addOperation(operation)
+                return operation
             } else {
                 completionBlock(image: nil, error: nil)
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(0.2 * Double(NSEC_PER_SEC))), dispatch_get_main_queue()) {
@@ -53,6 +54,7 @@ public class ImageManager {
                 }
             }
         }
+        return nil
     }
     
     public func suspendOperations() {
